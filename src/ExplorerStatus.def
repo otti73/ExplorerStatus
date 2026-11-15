@@ -1,0 +1,8 @@
+LIBRARY "ExplorerStatus"
+
+EXPORTS
+    DllMain
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE
+    DllRegisterServer PRIVATE
+    DllUnregisterServer PRIVATE
